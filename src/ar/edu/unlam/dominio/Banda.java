@@ -14,6 +14,31 @@ public class Banda {
 		this.genero = genero;
 		this.musicosIntegrantes = new Musico[cantidadIntegrantes];
 	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public Integer getNroIntegrantes() {
+		return nroIntegrantes;
+	}
+
+	public void setNroIntegrantes(Integer nroIntegrantes) {
+		this.nroIntegrantes = nroIntegrantes;
+	}
+
+	public Genero getGenero() {
+		return genero;
+	}
+
+	public void setGenero(Genero genero) {
+		this.genero = genero;
+	}
+
 	
 	
 }
